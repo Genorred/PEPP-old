@@ -36,7 +36,7 @@ const config = {
           "attributes": false
         }
       }
-    ]
-  }
+    ],
+  },
 }
 module.exports = config;

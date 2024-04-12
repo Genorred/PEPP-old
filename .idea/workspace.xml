@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d2f9676-3ab0-4526-aee6-1fa49d19df92" name="Changes" comment="auth">
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/ui/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/ui/Auth.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Genorred&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ea3e6fdd-9cf4-436b-9b67-f3951f27ac69" />
+        <option name="url" value="https://github.com/Genorred/PEPP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eSqztlOPAAwjJ9krpon47aXwGV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ивв/WebstormProjects/PEPP/src/shared/ui/logo/ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ивв\\WebstormProjects\\PEPP\\PEPP\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\src\shared\ui\logo\ui" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\(auth)\sign-up" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\(auth)\sign-in" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\api" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\src\shared\ui\shadcn" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\src\shared\ui\shadcn\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d2f9676-3ab0-4526-aee6-1fa49d19df92" name="Changes" comment="" />
+      <created>1711908593428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711908593428</updated>
+      <workItem from="1711908594571" duration="605000" />
+      <workItem from="1711909774950" duration="2411000" />
+      <workItem from="1711912312224" duration="3775000" />
+      <workItem from="1711968239320" duration="8534000" />
+      <workItem from="1712050282213" duration="30000" />
+      <workItem from="1712066768999" duration="2492000" />
+      <workItem from="1712075180874" duration="2222000" />
+      <workItem from="1712129696636" duration="10723000" />
+      <workItem from="1712235933068" duration="5645000" />
+      <workItem from="1712249416848" duration="5814000" />
+      <workItem from="1712291350976" duration="17000" />
+      <workItem from="1712310677294" duration="6237000" />
+      <workItem from="1712325613056" duration="23008000" />
+      <workItem from="1712418194511" duration="314000" />
+      <workItem from="1712424177614" duration="8058000" />
+      <workItem from="1712553096428" duration="7854000" />
+      <workItem from="1712731317360" duration="14636000" />
+      <workItem from="1712823526562" duration="3560000" />
+      <workItem from="1712915632320" duration="1996000" />
+    </task>
+    <task id="LOCAL-00001" summary="starting">
+      <option name="closed" value="true" />
+      <created>1712225832838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712225832838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="auth">
+      <option name="closed" value="true" />
+      <created>1712917124850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712917124851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tailwind.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starting" />
+    <MESSAGE value="auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/shared/api/server/api/trpc.ts</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/shared/api/auth/config/config.ts</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/shared/api/server/api/routers/post.ts</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
