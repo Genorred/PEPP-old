@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d2f9676-3ab0-4526-aee6-1fa49d19df92" name="Changes" comment="auth">
-      <change beforePath="$PROJECT_DIR$/src/pages/auth/ui/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/ui/Auth.tsx" afterDir="false" />
+    <list default="true" id="3d2f9676-3ab0-4526-aee6-1fa49d19df92" name="Changes" comment="input type">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/ui/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_pages/auth/ui/Auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/_pages/posts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/posts/ui/Posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/_pages/posts/ui/Posts.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +81,11 @@
       <recent name="C:\Users\ивв\WebstormProjects\PEPP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\src\_pages\posts" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\src\_pages\posts\ui" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\src\_pages\auth\ui" />
+      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\src\_pages" />
       <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\(auth)\sign-up" />
-      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\(auth)\sign-in" />
-      <recent name="C:\Users\ивв\WebstormProjects\PEPP\PEPP\app\api" />
-      <recent name="C:\Users\ивв\WebstormProjects\PEPP\src\shared\ui\shadcn" />
-      <recent name="C:\Users\ивв\WebstormProjects\PEPP\src\shared\ui\shadcn\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -108,7 +114,7 @@
       <workItem from="1712553096428" duration="7854000" />
       <workItem from="1712731317360" duration="14636000" />
       <workItem from="1712823526562" duration="3560000" />
-      <workItem from="1712915632320" duration="1996000" />
+      <workItem from="1712915632320" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <option name="closed" value="true" />
@@ -126,7 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712917124851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="auth">
+      <option name="closed" value="true" />
+      <created>1712918153659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712918153660</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix vercel">
+      <option name="closed" value="true" />
+      <created>1712918853455</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712918853456</updated>
+    </task>
+    <task id="LOCAL-00005" summary="input type">
+      <option name="closed" value="true" />
+      <created>1712919057094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712919057094</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +170,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting" />
     <MESSAGE value="auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth" />
+    <MESSAGE value="fix vercel" />
+    <MESSAGE value="input type" />
+    <option name="LAST_COMMIT_MESSAGE" value="input type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
