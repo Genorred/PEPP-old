@@ -1,7 +1,6 @@
 import React from 'react';
 import type {NavGeneralItemsType} from "~/widgets/navigation/consts/navItems";
 import Link from "next/link";
-import {Button, buttonVariants} from "../../../shared/ui/Button";
 import {cn} from "~/shared/lib/clsx/cn";
 interface Props {
     item: NavGeneralItemsType[number]
