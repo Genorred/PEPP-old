@@ -23,7 +23,7 @@ const UpdateAccountForm = ({ cancelButton, submitButton, userId }: Props) => {
         resolver: zodResolver(profileResolver)
     })
     const Submit = async (values: TAuthResolver) => {
-
+console.log('')
     }
     return (
         <Form {...form}>
