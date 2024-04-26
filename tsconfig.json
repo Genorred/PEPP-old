@@ -36,7 +36,8 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/kernel/infrastructure/config/auth/next-auth.d.ts"
   ],
   "exclude": ["node_modules"]
 }
