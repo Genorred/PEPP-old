@@ -5,7 +5,7 @@ import NavItem from "~/widgets/navigation/ui/NavItem";
 import Image from 'next/image'
 import {cn} from "~/shared/lib/clsx/cn";
 import {LogInIcon, LogOutIcon} from "lucide-react";
-import {Session} from "next-auth";
+import {type Session} from "next-auth";
 import {signOut} from "next-auth/react";
 import {Avatar} from "~/enteties/user";
 import {usePathname, useSearchParams} from "next/navigation";
