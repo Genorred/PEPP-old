@@ -6,24 +6,30 @@ import {Input} from "~/shared/ui/Input";
 import {Button} from "~/shared/ui/Button";
 import {z} from "zod";
 import {zodResolver} from "@hookform/resolvers/zod";
-type ButtonType = { title: string, onClick: () => void}
+import {useRouter} from "next/navigation";
+
 interface Props {
     userId: string
-    cancelButton?: ButtonType
-    submitButton?: ButtonType
+    callbackUrl?: string
+    cancelButtonName: string
+    submitButtonName: string
 }
+
 const profileResolver = z.object({
     name: z.string().min(4, {
         message: 'at least 4 charachters long'
     })
 })
 type TAuthResolver = z.infer<typeof profileResolver>
-const UpdateAccountForm = ({ cancelButton, submitButton, userId }: Props) => {
+const UpdateAccountForm = ({callbackUrl, userId, cancelButtonName, submitButtonName}: Props) => {
     const form = useForm<TAuthResolver>({
         resolver: zodResolver(profileResolver)
     })
+    const router = useRouter()
     const Submit = async (values: TAuthResolver) => {
-console.log('')
+        console.log(callbackUrl)
+        if (callbackUrl)
+            router.push(callbackUrl)
     }
     return (
         <Form {...form}>
@@ -31,21 +37,25 @@ console.log('')
                 <FormField
                     control={form.control}
                     name={'name'}
-                    render={({field})=>(
-                <FormItem>
-                    <FormLabel>Username</FormLabel>
-                    <FormControl>
-                        <Input placeholder="username" {...field} />
-                    </FormControl>
-                    <FormDescription>
-                        You can change your username anytime, but usernames are unique.
-                    </FormDescription>
-                    <FormMessage />
-                </FormItem>
-                )}/>
+                    render={({field}) => (
+                        <FormItem>
+                            <FormLabel>Username</FormLabel>
+                            <FormControl>
+                                <Input placeholder="username" {...field} />
+                            </FormControl>
+                            <FormDescription>
+                                You can change your username anytime, but usernames are unique.
+                            </FormDescription>
+                            <FormMessage/>
+                        </FormItem>
+                    )}/>
                 <div className='mt-2 flex justify-between'>
-                    <Button onClick={cancelButton.onClick} variant={'link'}>{cancelButton.title}</Button>
-                    <Button onClick={submitButton.onClick}>{submitButton.title}</Button>
+                    <Button variant={'link'} type="submit">
+                        {cancelButtonName}
+                    </Button>
+                    <Button type="submit">
+                        {submitButtonName}
+                    </Button>
                 </div>
             </form>
         </Form>
