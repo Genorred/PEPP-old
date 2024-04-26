@@ -7,8 +7,11 @@ import {cn} from "~/shared/lib/clsx/cn";
 import {LogInIcon, LogOutIcon} from "lucide-react";
 import {Session} from "next-auth";
 import {signOut} from "next-auth/react";
+import {Avatar} from "~/enteties/user";
+import {usePathname, useSearchParams} from "next/navigation";
 
 const NavAuthItems = ({session}: { session: Session | null }) => {
+    const callbackUrl = usePathname();
     if (session)
         return <>
             <div className='ml-auto my-auto'>
@@ -19,8 +22,7 @@ const NavAuthItems = ({session}: { session: Session | null }) => {
             <Link href='/profile'
                   className='text-xl text-primary hover:text-primary/70 flex gap-2 items-center justify-center ml-10'>
                 Profile
-                {session.user?.image&&<Image alt='user avatar' src={session.user?.image} width={50} height={50}
-                       className='rounded-full border-2 border-primary-foreground'/>}
+                <Avatar image={session?.user?.image} />
             </Link>
         </>
     else
@@ -28,7 +30,7 @@ const NavAuthItems = ({session}: { session: Session | null }) => {
             <div className='ml-auto flex items-center'>
                 <NavItem item={{
                 title: 'Sign in',
-                path: '/sign-in',
+                path: `/auth/sign-in${callbackUrl? '?callbackUrl='+callbackUrl: ''}`,
                 Icon: LogInIcon
             }}/>
             </div>

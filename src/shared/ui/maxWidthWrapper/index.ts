@@ -1,1 +1,0 @@
-export {MaxWidthWrapper} from './MaxWidthWrapper'
