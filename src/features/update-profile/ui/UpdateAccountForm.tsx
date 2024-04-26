@@ -9,8 +9,8 @@ import {zodResolver} from "@hookform/resolvers/zod";
 type ButtonType = { title: string, onClick: () => void}
 interface Props {
     userId: string
-    cancelButton: ButtonType
-    submitButton: ButtonType
+    cancelButton?: ButtonType
+    submitButton?: ButtonType
 }
 const profileResolver = z.object({
     name: z.string().min(4, {
