@@ -1,9 +1,9 @@
 import * as React from "react"
 
-import { cn } from "~/shared/lib/clsx/cn"
+import { cn } from "src/shared/lib/clsx/cn"
 
-
-export type InputProps = React.InputHTMLAttributes<HTMLInputElement>
+export interface InputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {}
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, ...props }, ref) => {

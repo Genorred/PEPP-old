@@ -10,6 +10,66 @@
       <change beforePath="$PROJECT_DIR$/src/features/auth/ui/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/ui/AuthForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/navigation/ui/NavItems.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widgets/navigation/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/navigation/ui/Navbar.tsx" afterDir="false" />
+    <list default="true" id="3d2f9676-3ab0-4526-aee6-1fa49d19df92" name="Changes" comment="im tired playing with vercel">
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/auth/new-user/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(auth)/auth/verify/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enteties/user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enteties/user/model/next-auth.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enteties/user/ui/Avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/lib/useEmail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/lib/useGoogle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/ui/AuthForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/ui/GoogleButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/update-profile/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/update-profile/ui/UpdateAccountForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/core/domain/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/core/repository/UserRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/core/service/UserService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/auth/authOptions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/auth/next-auth.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/infrastructure/controllers/UserController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/infrastructure/controllers/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kernel/infrastructure/repository/UserRepositoryImpl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/lib/email/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/logo/ui/Google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/trpc/[trpc]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/trpc/[trpc]/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_pages/auth/ui/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/auth/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_pages/posts/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_pages/posts/ui/Posts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/form/ui/Form.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/auth/config/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/auth/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/server/api/root.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/infrastructure/controllers/root.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/server/api/routers/post.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/server/api/trpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/trpc/trpc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/server/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/trpc/react.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/trpc/react.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/api/trpc/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/infrastructure/config/trpc/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/logo/ui/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/logo/ui/Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/logo/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/logo/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/maxWidthWrapper/MaxWidthWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/MaxWidthWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/maxWidthWrapper/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/shadcn/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/shadcn/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/shadcn/label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/navigation/ui/NavAuthItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/navigation/ui/NavAuthItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/navigation/ui/NavItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/navigation/ui/NavItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/navigation/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/navigation/ui/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/providers/ui/Providers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/providers/ui/Providers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +189,7 @@
       <workItem from="1713946939102" duration="4698000" />
       <workItem from="1713956365195" duration="10822000" />
       <workItem from="1714129882674" duration="2812000" />
+      <workItem from="1714129882674" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <option name="closed" value="true" />
@@ -187,6 +248,7 @@
       <updated>1714131766565</updated>
     </task>
     <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +267,7 @@
     <MESSAGE value="im tired playing with vercel" />
     <MESSAGE value="DI auth" />
     <option name="LAST_COMMIT_MESSAGE" value="DI auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="im tired playing with vercel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +288,7 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/(auth)/auth/sign-in/page.tsx</url>
           <line>3</line>
+          <line>2</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
